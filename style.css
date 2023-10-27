@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    background-color: rgb(249, 225, 193);
+}
+
+h1{
+    margin: 2em auto 1em auto;
+    color:blue
+}
+
+h4{
+    margin-bottom: 1em;
+}
+
+input[type=number]{
+    padding: .5em;
+}
+
+button{
+    padding: .5em 1.5em;
+    background-color: darkgreen;
+    color:#fff;
+    border-radius: .4em;
+
+}
+
+.contador{
+    margin: auto;
+    width: 300px;
+    border: 1px solid black;
+    padding: 1em ;
+    font-size: 1.5em;
+}
+
+#reiniciar{
+    margin-top: 2em;
+    background-color: red;
+}
+
+button{
+    cursor: pointer;
+}
